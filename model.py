@@ -2,7 +2,6 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
-import joblib
 
 app = Flask(__name__)
 with open("rf_model_diabetes_data.pkl",'rb') as f:
